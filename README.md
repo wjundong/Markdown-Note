@@ -168,7 +168,7 @@
 
     * 行内式
 
-        `![图片标题](图片地址 “图片Title”)`
+        `![图片标题](图片地址 “图片标签”)`
     
         美丽花儿：\
         ![美丽花儿](https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=92afee66fd36afc3110c39658318eb85/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg)
@@ -178,7 +178,7 @@
         ```
         美丽风景![美丽风景][风景]
 
-        [风景]:https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557668703443&di=d709e8d0e66ee62a1a099994da34f30e&imgtype=0&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fw2%2F60%2Fd%2F83.jpg "美丽风景"
+        [风景]:图片地址 "美丽风景"
         ```
 
          美丽风景![美丽风景][风景]
