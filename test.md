@@ -32,6 +32,7 @@
 插入链接：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>
 插入图片：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
 
+
 ## 合理的创建标题，有助于目录的生成
 
 直接输入1次<kbd>#</kbd>，并按下<kbd>space</kbd>后，将生成1级标题。
