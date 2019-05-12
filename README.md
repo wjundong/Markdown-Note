@@ -56,22 +56,51 @@
         >不懂那就[百度一下](http://www.baidu.com)\
             不懂那就[百度一下](http://www.baidu.com "百度")
 
-4. **参考式**   
-    参考式超链接一般用在学术论文上面，或者另一种情况，如果某一个链接在文章中多处使用，那么使用引用 的方式创建链接将非常好，它可以让你对链接进行统一的管理。
-    ```
-         >我经常去的几个网站[谷歌][Google_lnk]、[百度][baidu_lnk]以及[Ｇithub][Ｇithub_lnk]
+    * **参考式**
+   
+        参考式超链接一般用在学术论文上面，或者另一种情况，如果某一个链接在文章中多处使用，那么使用引用 的方式创建链接将非常好，它可以让你对链接进行统一的管理。
+
+        ```
+            我经常去的几个网站[谷歌][Google_lnk]、[百度][baidu_lnk]以及[Ｇithub][Ｇithub_lnk]
+
+            [Google_lnk]: www.google.com "Google"
+            [baidu_lnk]: www.baidu.com "百度" 
+            [Ｇithub_lnk]: https://github.com/
+        ```
+        显示效果：
+        >我经常去的几个网站[谷歌][Google_lnk]、[百度][baidu_lnk]以及[Ｇithub][Ｇithub_lnk]
 
         [Google_lnk]: www.google.com "Google"
         [baidu_lnk]: www.baidu.com "百度" 
         [Ｇithub_lnk]: https://github.com/
-    ```
-    显示效果：
-    >我经常去的几个网站[谷歌][Google_lnk]、[百度][baidu_lnk]以及[Ｇithub][Ｇithub_lnk]
+    * 自动链接
+        
+        Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用<>包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样。
 
-    [Google_lnk]: www.google.com "Google"
-    [baidu_lnk]: www.baidu.com "百度" 
-    [Ｇithub_lnk]: https://github.com/
+        比如：`<http://example.com/>`和`<http://example.com/>`
 
+        > <http://example.com/>　和　<http://example.com/>
+
+
+ 4. **锚点**
+    ## 0. 目录{#index}
+
+
+
+
+
+
+
+
+
+
+    \
+    \
+    \
+    \
+    \
+    \
+    跳转到[目录](#index)
 ## 2、快捷键
 
 
