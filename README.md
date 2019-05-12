@@ -6,10 +6,10 @@
    
    源代码：
     ```
-        *斜体*或_斜体_
-        **粗体**
-        ***加粗斜体***
-        ~~删除线~~
+    *斜体*或_斜体_
+    **粗体**
+    ***加粗斜体***
+    ~~删除线~~
     ```
     显示效果：
 
@@ -23,10 +23,10 @@
    
    * 第一种写法：
         ```
-            这是一级标题
-            ================
-            这是二级标题
-            ----------------
+        这是一级标题
+        ================
+        这是二级标题
+        ----------------
         ```
 
    * 第二种写法：
@@ -45,11 +45,11 @@
     * 行内式：
         
         ```
-            [链接文字](链接地址 "title属性")    注：title属性可加可不加
+        [链接文字](链接地址 "title属性")    注：title属性可加可不加
 
-            不懂那就[百度一下](http://www.baidu.com)
+        不懂那就[百度一下](http://www.baidu.com)
 
-            不懂那就[百度一下](http://www.baidu.com "百度")
+        不懂那就[百度一下](http://www.baidu.com "百度")
         ```
 
         显示效果：
@@ -62,11 +62,11 @@
         参考式超链接一般用在学术论文上面，或者另一种情况，如果某一个链接在文章中多处使用，那么使用引用 的方式创建链接将非常好，它可以让你对链接进行统一的管理。
 
         ```
-            我经常去的几个网站[谷歌][Google_lnk]、[百度][baidu_lnk]以及[Ｇithub][Ｇithub_lnk]
+        我经常去的几个网站[谷歌][Google_lnk]、[百度][baidu_lnk]以及[Ｇithub][Ｇithub_lnk]
 
-            [Google_lnk]: www.google.com "Google"
-            [baidu_lnk]: www.baidu.com "百度" 
-            [Ｇithub_lnk]: https://github.com/
+        [Google_lnk]: www.google.com "Google"
+        [baidu_lnk]: www.baidu.com "百度" 
+        [Ｇithub_lnk]: https://github.com/
         ```
         显示效果：
         >我经常去的几个网站[谷歌][Google_lnk]、[百度][baidu_lnk]以及[Ｇithub][Ｇithub_lnk]
@@ -149,11 +149,11 @@
     * 代码
 
         ```
-              * * *
-              ***
-              *****
-              - - -
-              ---------------------------------------
+        * * *
+        ***
+        *****
+        - - -
+        ---------------------------------------
 
         ```
     * 效果
@@ -166,13 +166,24 @@
 
 8. 插图
 
-    `美丽花儿：\
-    ![美丽花儿](插图地址)`
+    * 行内式
+
+        `![图片标题](图片地址 “图片Title”)`
     
-    美丽花儿：\
-    ![美丽花儿](https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=92afee66fd36afc3110c39658318eb85/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg)
+        美丽花儿：\
+        ![美丽花儿](https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=92afee66fd36afc3110c39658318eb85/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg)
 
+    * 参考式写法
 
+        ```
+        美丽风景![美丽风景][风景]
+
+        [flower]:https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557668703443&di=d709e8d0e66ee62a1a099994da34f30e&imgtype=0&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fw2%2F60%2Fd%2F83.jpg "美丽风景"
+        ```
+
+         美丽风景![美丽风景][风景]
+
+        [风景]:https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557668703443&di=d709e8d0e66ee62a1a099994da34f30e&imgtype=0&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fw2%2F60%2Fd%2F83.jpg "美丽风景"
 
 ## 2、快捷键
 
